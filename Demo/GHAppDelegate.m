@@ -71,12 +71,15 @@
     paperListViewController* controller3 = [[paperListViewController alloc] initWithTitle:@"译言精选－生活" withRevealBlock:revealBlock];
     paperListViewController* controller4 = [[paperListViewController alloc] initWithTitle:@"译言精选－经济" withRevealBlock:revealBlock];
     paperListViewController* controller5 = [[paperListViewController alloc] initWithTitle:@"译言精选－文化" withRevealBlock:revealBlock];
+    paperListViewController* controller6 = [[paperListViewController alloc] initWithTitle:@"辣妈羊毛党" withRevealBlock:revealBlock];
+    
     
     controller1.urlStringHead = @"http://select.yeeyan.org/lists/social";
     controller2.urlStringHead = @"http://select.yeeyan.org/lists/science";
     controller3.urlStringHead = @"http://select.yeeyan.org/lists/lifestyle";
     controller4.urlStringHead = @"http://select.yeeyan.org/lists/economic";
     controller5.urlStringHead = @"http://select.yeeyan.org/lists/culture";
+    controller6.urlStringHead = @"http://www.newsmth.net/nForum/#!board/CouponsGroup";
     
 	NSArray *controllers = @[
 		@[
@@ -87,7 +90,7 @@
 			[[UINavigationController alloc] initWithRootViewController:controller3],
 			[[UINavigationController alloc] initWithRootViewController:controller4],
 			[[UINavigationController alloc] initWithRootViewController:controller5],
-			
+            [[UINavigationController alloc] initWithRootViewController:controller6],
 		]
 	];
     
@@ -102,6 +105,11 @@
 			@{kSidebarCellImageKey: [UIImage imageNamed:@"user.png"], kSidebarCellTextKey: NSLocalizedString(@"译言精选-生活", @"")},
 			@{kSidebarCellImageKey: [UIImage imageNamed:@"user.png"], kSidebarCellTextKey: NSLocalizedString(@"译言精选-经济", @"")},
 			@{kSidebarCellImageKey: [UIImage imageNamed:@"user.png"], kSidebarCellTextKey: NSLocalizedString(@"译言精选-文化", @"")},
+            
+            @{kSidebarCellImageKey: [UIImage imageNamed:@"user.png"], kSidebarCellTextKey: NSLocalizedString(@"辣妈羊毛党", @"")},
+            
+            
+            
 			
 		]
 	];

@@ -72,7 +72,7 @@ typedef enum {
 
 
 
-+(void)testRemoteImage;
+//+(void)testRemoteImage;
 
 //+(void) languagePackUpdata;
 +(void) AnimatinNavigationShowFrame:(UIView*)NavigationControllerView ;

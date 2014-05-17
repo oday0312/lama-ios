@@ -171,6 +171,28 @@ static int pageIndex = 1;
     [request startAsynchronous];
 }
 
+
+///=======================================
+static int smth_pageIndex = 1;
+-(void)startSMTH_http:(NSString*)inputString
+{
+    if (IS_loadingMore) {
+        smth_pageIndex ++;
+    }
+    NSString* urlstring = [@"" stringByAppendingFormat:@"%@?p=%d", self.urlStringHead,smth_pageIndex];
+    NSURL *url = [NSURL URLWithString:urlstring];
+    
+    ASIHTTPRequest *request = [ASIHTTPRequest requestWithURL:url];
+    
+    [request setDelegate:self];
+    
+    [request startAsynchronous];
+
+    
+    
+}
+
+
 - (void)requestFinished:(ASIHTTPRequest *)request
 {
     // 当以文本形式读取返回内容时用这个方法
@@ -207,6 +229,20 @@ static int pageIndex = 1;
     
 }
 static int IS_loadingMore = 0;
+
+-(void)getPageInformation_smth:(NSString*)inputString
+{
+    if (IS_loadingMore==1) {
+        IS_loadingMore = 0;
+    }
+    else{
+        [self._data removeAllObjects];
+    }
+    
+}
+
+
+
 -(void)getPagesInformation:(NSString*)inputstring
 {
     if (IS_loadingMore==1) {

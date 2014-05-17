@@ -235,4 +235,15 @@
 {
     [self setState:RefreshStateNormal];
 }
+-(float)validY
+{
+    //todo : temply remove warning
+    return 0;
+}
+
+- (int)viewType
+{
+    //todo : temply remove warning
+    return 0;
+}
 @end
