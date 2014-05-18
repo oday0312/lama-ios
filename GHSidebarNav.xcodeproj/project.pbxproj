@@ -716,7 +716,7 @@
 		6BE3FCBD147A096500CDEC04 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: huang zhifang (REA22B5B3H)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Demo/GHSidebarNav-Prefix.pch";
 				INFOPLIST_FILE = "Demo/GHSidebarNav-Info.plist";
@@ -735,7 +735,7 @@
 		6BE3FCBE147A096500CDEC04 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: huang zhifang (REA22B5B3H)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Demo/GHSidebarNav-Prefix.pch";
 				INFOPLIST_FILE = "Demo/GHSidebarNav-Info.plist";

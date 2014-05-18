@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>62D53694-316F-46F9-8D5B-EE4D3038279C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GHSidebarNav</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4304D74D-1F8F-4287-94C1-0680DE2563B0</key>
+		<string>https://github.com/oday0312/lama-ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GHSidebarNav.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4304D74D-1F8F-4287-94C1-0680DE2563B0</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/oday0312/lama-ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4304D74D-1F8F-4287-94C1-0680DE2563B0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4304D74D-1F8F-4287-94C1-0680DE2563B0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>lama-ios</string>
+		</dict>
+	</array>
+</dict>
+</plist>
